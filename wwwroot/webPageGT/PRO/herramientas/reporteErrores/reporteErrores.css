@@ -1,0 +1,180 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    background-color: #F2DEBA;
+}
+
+
+.nav{
+    padding: 10px;
+    background-color: #E6B325;
+    align-items: center;
+    display: flex;
+}
+
+.pt1Menu{
+    display: flex;
+    width: 15%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titleBar{
+    display: flex;
+    width: 70%;
+    color: white;
+    justify-content: center;
+    font-family: cursive;
+}
+
+.pt2Menu{
+    width: 15%;
+    padding: 10px 30px;
+    text-align: left;
+    font-family: cursive;    
+}
+
+.pt2Menu .toolBar li{
+    list-style: none;
+}
+
+.imgLogo{
+    width: 50px;
+}
+
+.letrasLogo{
+    color: white;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 19px;
+    color: rgb(228, 226, 223);
+    cursor: default;
+}
+
+
+.toolBar li a:hover{
+    background-color: rgb(50, 3, 68);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+.coinerReporteErrores{
+color: white;
+}
+
+
+
+.formulario{
+    background-color: #343940;
+    width: min(42rem, 100%);  /*Min usa el valor mas pequeño*/
+    margin: 1.8rem auto;
+    border-radius: 2rem;
+    max-height: 33rem;
+
+}
+
+.formulario fieldset{
+    border: none;   
+}
+
+.formulario legend{
+    color: #22A39F;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    width: 100%; /*Esto no esta igual, pero solo le doy todo lo de el ancho para que ahi se pueda centrar*/
+}
+
+.servicios,
+.navBg,
+.formulario{
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+} 
+
+
+@media (min-width: 768px) {
+    .contenedorCampos{
+        padding: 2.1rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Divide a la mitad */
+        column-gap: 1rem;
+        grid-template-rows: auto auto 11rem;
+        }
+
+    .campo:nth-child(1),
+    .campo:nth-child(4),
+    .campo:nth-child(5)
+    {
+            grid-column: 1 / 3;
+    
+    }
+
+    
+    .miboton{
+        width: 1rem;
+        padding: .4rem;
+        border-radius: .9rem;
+        font-family: cursive;
+        font-size: 1.1rem;
+        transition: all .4s ease;
+    }
+
+    .miboton:hover{
+        background-color: #00ABB3;
+        color: white;
+    }
+}
+    .campo{
+    margin-bottom: 1rem;
+    }
+
+    .campo label{
+    font-weight: bold;
+    margin-bottom: .5rem;
+    color: wheat;
+    display: block;
+    }      
+
+    .campo textarea{
+    height: 7rem;
+    }
+
+    .inputType{
+    width: 100%;
+    border: none;
+    padding: .6rem;
+    border-radius: .8rem;
+    }
+
+    .miboton{
+        width: 38rem;
+        padding: .4rem;
+        border-radius: .9rem;
+        font-family: cursive;
+        font-size: 1.1rem;
+        transition: all .4s ease;
+    }
+
+    .miboton:hover{
+        background-color: #00ABB3;
+        color: white;
+    }

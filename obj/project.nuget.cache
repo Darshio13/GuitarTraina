@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "JllytA8i2gLNqKmxbvGr1Q4yTEFRhiNZOYixYP4xyUnKuUBJjtkkPAUcVElOBeW4mSD+G01PWQkUIWyR4dlthQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Diego Santos\\Desktop\\ProyectoGuitarra\\ProyectoGuitarra.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Diego Santos\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
+    "C:\\Users\\Diego Santos\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

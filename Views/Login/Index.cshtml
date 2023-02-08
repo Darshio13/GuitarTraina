@@ -1,0 +1,60 @@
+@model ProyectoGuitarra.Models.LoginForm
+@{
+    Layout = null;
+}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h4>Primer Form</h4>
+
+        @using (Html.BeginForm("Index", "Login", FormMethod.Post, new { onsubmit = "return btnClick();" }))
+        {
+            <label>
+                @Html.TextBoxFor(m=> m.MailInput, new { placeholder= "Correo Electronico", id = "mailInput"})
+            </label>
+            <label>
+                @Html.TextBoxFor(m=>m.PasswordInput, new {placeholder= "Contraseña", id = "passwordInput"})
+            </label>
+
+        
+
+
+            <input type="submit" value="Submit">
+
+        }
+        <script>
+           // async function sbtnClick() {
+                //Checar si se logeo correctamente
+
+             //   var c = document.getElementById("mailInput").value
+                //var p = document.getElementById("passwordInput").value
+
+                //const validate = await fetch(`http://webapplication1-dev.eba-kqzerfvq.us-east-1.elasticbeanstalk.com/LogIn?email=${c}&password=${p}`)
+                 //  obj = await validate;
+
+                   // console.log(obj)
+
+                    //console.log("Credenciales invalidas")
+                 //   return false;
+            //}
+        </script>
+
+    </div>
+
+    <script>
+
+
+
+        document.getElementById("text1").value = "Gratis";
+    </script>
+</body>
+
+</html>

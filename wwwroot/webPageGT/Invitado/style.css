@@ -1,0 +1,443 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: cursive;
+    margin: 0;
+}
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.8em;}
+h3{ font-size: 2.1em;}
+p{ font-size: 1.75em;}
+ul{ list-style: none;}
+li{ font-size: 1.3em;}
+  
+
+.color-accent{ 
+    color: blueviolet; 
+}
+
+
+/*NAV*/
+
+header .letrasLogo{
+    margin: 6px;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 1.45em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background-color: #2C3333;
+    position: fixed;
+    width: 100%;
+}   
+
+header .imgLogo{
+    width: 60px;
+    margin-right: 400px;
+}
+
+header a{
+    padding: 15px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+}
+
+header a:hover{
+    background-color: #06225f;
+    padding: 5px 10px;
+    border-radius: 25px;
+    transition: all .6s ease;
+}
+
+.menuHorizontal{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    margin: 15px;
+    width: 100%;
+}
+
+.menuHorizontal > li > a  {
+    display: block;
+    padding: 15px 14px;
+    text-align: right;
+    font-size: 16px;
+
+}
+
+.menuVertical{
+    position: absolute;
+    list-style: none;
+    display: none;
+}
+
+.menuHorizontal li:hover .menuVertical{
+    display: block;
+}
+
+.menuVertical li:hover{
+    background-color: #06225f;
+    border-radius: 20px;
+}
+
+.menuVertical li a{
+    display: block;
+    color: white;
+    font-size: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.iconoUsuario img{
+    width: 35px;
+    height: 35px;
+    margin: -8px 2px;
+}
+
+.container .miImagen{
+    width: 30px;
+}
+
+.container .letrasLogo{
+    width: 40%;
+}
+
+/*Responsive NAV*/
+
+
+/*RESPONSIVE*/
+
+@media (min-width: 720px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    header .container{
+        flex-direction: row;
+        justify-content: left;
+    }
+
+   
+}
+
+@media (max-width: 720px){
+    .letrasLogo{
+        font-size: 15px;
+    }
+
+    .miImagen img{
+        justify-content: center;
+        display: none;
+    }
+
+    .menuHorizontal{
+       justify-content: center;
+    }
+
+    .menuHorizontal li a{
+        font-size: 10px;
+    }
+
+    .menuVertical li a{
+        font-size: 7px;
+    }
+
+    .letrasLogo{
+        text-align: center;
+        width: 100%;
+    }
+}
+
+
+/*Imagen fondo*/
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    color: #ffffff;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/acusticGuitar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1{
+    color: white;
+}
+
+
+
+/*PARTE 2*/
+
+
+
+.secondPart{
+    background-color: #01050E;
+}
+
+
+#somosGT .container{
+    text-align: center;
+    padding: 80px 12px;
+    color: white;
+    display: grid;
+    width: 100%;
+    gap: 1.5em;    
+    grid-template-columns: repeat(2, 1fr) ;
+}
+
+
+.fullText{
+    text-align: justify;
+    color: rgb(228, 222, 212);
+    height: 400px;
+    padding: 18px;
+    margin-bottom: 100px;
+    font-size: 17px;
+}
+
+.texto{
+    text-align: center;
+}
+
+#somosGT .img-container{
+    background-image: url("img/claveSol.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    display: flex;
+}
+
+@media screen and (max-width: 830px){
+
+    .secondPart .container .box2{
+        grid-column: 1/-1;
+    }
+
+}
+
+
+/*PARTE 3*/
+
+.thirdPart{
+    background-color: wheat;
+}
+
+.thirdPart .headerPart{
+    padding: 20px;
+}
+
+.headerPart h2{
+    font-size: 35px;
+    text-align: center;
+    color: #0A2647;
+    font-family: Verdana;
+}
+
+.myBox{
+    display: table-cell;
+    padding: 20px;
+}
+
+.misColumnas .myBox:nth-child(1) h3{
+    color: #144272;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.misColumnas .myBox:nth-child(2) h3{
+    color: #144272;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+.misColumnas .myBox:nth-child(3) h3{
+    color: #144272;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+.misColumnas .myBox:nth-child(1) p{
+    color: rgb(5, 13, 49);
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+
+.misColumnas .myBox:nth-child(2) p{
+    color: rgb(5, 13, 49);
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+
+.misColumnas .myBox:nth-child(3) p{
+    color: rgb(5, 13, 49);
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.misColumnas .myBox:nth-child(1) figure img{
+    width: 275px;
+    justify-content: right;    
+    margin: auto;
+    display: block;
+}
+
+.misColumnas .myBox:nth-child(2) figure img{
+    width: 275px;
+    justify-content: right;    
+    margin: auto;
+    display: block;
+}
+
+.misColumnas .myBox:nth-child(3) figure img{
+    width: 275px;
+    justify-content: right;    
+    margin: auto;
+    display: block;
+}
+
+@media screen and (max-width: 950px){
+
+    .thirdPart .misColumnas{
+        display: grid;
+        grid-column: 1/-1;
+    }
+}
+
+@media(min-width: 700px) {
+    .myBox p{
+        line-height: 30px;
+    }
+}
+
+@media(min-width: 1024px) {
+    .myBox p{
+        line-height: 4l0px;
+    }
+}
+
+
+/*FOOTER*/
+
+.pieDePagina{
+    width: 100%;
+    background-color: #EEEEEE;
+}
+
+.pieDePagina .grupoUno{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0;
+}
+
+.pieDePagina .grupoUno .box{
+    text-align: center;
+}
+
+.pieDePagina .grupoUno .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pieDePagina .grupoUno .box figure img{
+    width: 100px;
+}
+
+.pieDePagina .grupoUno .box h2{
+    color: rgb(95, 9, 9);
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pieDePagina .grupoUno .box p{
+    color: rgb(36, 45, 48);
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.pieDePagina .grupoUno .redesSociales a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: rgb(7, 82, 82);
+    margin-right: 10px;
+    background-color: #EEEEEE;
+    text-align: center;
+}
+
+.pieDePagina .grupoUno .redesSociales a:hover{
+    transition: all 300ms ease;
+    color: rgb(25, 128, 187);
+}
+
+
+.grupoUno .box .sendEmail{
+    font-family: cursive;
+    font-size: 20px;
+}
+
+
+.pieDePagina .grupoDos{
+    background-color: #CBEDD5;
+    padding: 15px 10px;
+    text-align: center;
+    color: rgb(104, 4, 4);
+}
+
+.pieDePagina .grupoDos small{
+    font-size: 16px; 
+}
+
+@media screen and (max-width: 800px){
+    .pieDePagina .grupoUno{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px
+    }
+
+    .pieDePagina .grupoUno .box{
+        justify-content: center;
+    }
+}
+
+

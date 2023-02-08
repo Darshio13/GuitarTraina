@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <link rel="icon" href="reporteImages/logoFInal.png">
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Reporte de errores</title>
+      <link rel="stylesheet" href="reporteErrores.css">
+   </head>
+   <body>
+      <header>   
+         <nav class="nav">
+            <div class="pt1Menu">
+               <div class="letrasLogo"> Guitar Traina! </div>
+                  <img class="imgLogo" src="toolsAndOthers/logoMaquetado.png" alt="" />
+            </div>
+            <div class="titleBar">
+               <h2> Reporte de errores </h2>
+            </div>
+            <div class="pt2Menu">
+               <ul class="toolBar">
+               <li> <a onclick="history.back()"> Inicio </a> </li>
+            </ul>
+            </div>
+         </nav>
+      </header>
+          
+      <div class="containerReporteErrores">
+           
+  <section>
+       <form class="formulario">
+           <fieldset>
+               <legend> Llena los campos requeridos </legend>
+
+               <div class="contenedorCampos">
+
+               <div class="campo">
+                   <label>Titulo del error: </label>
+                   <input class="inputType" type="text" placeholder="EJ: La configuracion de mi afinacion no se guarda" required>
+               </div>
+
+               <div class="campo">
+                   <label> No de veces que ha ocurrio del error: </label>
+                   <input class="inputType" type="number" placeholder="EJ: 4 veces" required>
+               </div>
+
+               <div class="campo">
+                   <label> Pasos para repetir el problema: </label>
+                   <input class="inputType" type="text" placeholder="EJ: Afinador, crear una afinacion ">
+               </div>
+
+               <div class="campo">
+                   <label> Descripcion del problema: </label>
+                   <textarea class="inputType" required>
+                   </textarea>
+               </div>
+               
+               <div class="campo">
+                  <input class="miboton" type="submit" value="Enviar">
+               </div>
+
+
+           </div> <!-- contenedorCampos -->
+
+            
+
+          </fieldset>
+
+       </form>
+</section>
+
+
+
+      </div>
+   </body>
+</html>

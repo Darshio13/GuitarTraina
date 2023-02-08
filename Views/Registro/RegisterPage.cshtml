@@ -1,0 +1,35 @@
+@model ProyectoGuitarra.Models.RegistroModel
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Registro</h1>
+
+    <div>
+        @using (Html.BeginForm("Index", "Registro", FormMethod.Post, new { onsubmit = "return btnClick();" }))
+        {
+            <label>
+                @Html.TextBoxFor(m=> m.email, new { placeholder= "Correo Electronico", id = "mailInput"})
+            </label>
+
+            <label>
+                @Html.TextBoxFor(m=>m.username, new {placeholder= "Nombre de usuarios", id = "passwordInput"})
+            </label>
+
+            <label>
+                @Html.TextBoxFor(m=>m.password, new {placeholder= "Contraseña", id = "passwordInput"})
+            </label>
+
+            <input type="submit" value="Registrarme">
+        }
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,149 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    background-image: url(toolsAndOthers/walpaper2.jpg);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav{
+    padding: 10px;
+    background-color: #2C3333;
+    align-items: center;
+    display: flex;
+}
+
+.pt1Menu{
+    display: flex;
+    width: 15%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titleBar{
+    display: flex;
+    width: 70%;
+    color: white;
+    justify-content: center;
+    font-family: cursive;
+}
+
+.pt2Menu{
+    width: 15%;
+    padding: 10px 30px;
+    text-align: left;
+    font-family: cursive;    
+}
+
+.pt2Menu .toolBar li{
+    list-style: none;
+}
+
+.imgLogo{
+    width: 50px;
+}
+
+.letrasLogo{
+    color: white;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 19px;
+    color: rgb(228, 226, 223);
+    cursor: default;
+}
+
+
+.toolBar li a:hover{
+    background-color: rgb(50, 3, 68);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+/*Container*/
+
+.containerPro{
+    padding: 0;
+}
+
+
+
+.userPROinfo{
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    max-height: 465px; 
+    margin: auto;
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    border-radius: 10px;
+    background-color: #62B6B7;
+    color: black;
+}
+
+.userPROinfo h2{
+    text-align: center;
+    font-size: 32px;
+    background-color: #181D31;
+    color: white;
+    padding: 20px;
+}
+
+
+
+.benefits{
+    padding: 18px;
+    margin: 8px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.benefits ul{
+    list-style: none;
+    padding: 10px;
+    margin: 8px;
+}
+
+.benefits ul li{
+    padding: 5px;
+}
+
+
+.botonPRO{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.botonPRO button{
+    width: 100%;
+    max-width: 130px;
+    background-color: #678983;
+    border-radius: 12px;
+    font-size: 14px;
+    transition: all .5s ease;
+}
+
+button:hover{
+    background-color: #251749;
+    color: white;
+}

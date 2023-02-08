@@ -1,0 +1,240 @@
+
+*{
+    box-sizing: border-box;
+    /*Cuando agrego bordes a los elementos, no crecen mas del tamaño que yo les asigne*/
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "smooth", sans-serif;
+    margin: 0;
+}
+
+/*Configuracion del tamaño de las letras*/
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.8em;}
+h3{ font-size: 2.1em;}
+p{ font-size: 1.75em;}
+ul{ list-style: none;}
+li{ font-size: 1.3em;}
+
+
+button:hover{
+    background-color: rgb(6, 34, 95);
+}
+
+.container{
+    max-width: 1400px;
+}
+
+.comtainer .img{
+    padding: 500px;
+    margin: auto;
+}
+
+.color-accent{ color: blueviolet; }
+
+/*Codigo  (Don't Repeat Yourself)*/
+
+header{
+    background-color: #2C3333;
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 1.45em;
+}
+
+.menuNavegacion{
+    text-align: right;
+   
+}
+
+header .container{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}   
+
+header .imgLogo{
+    width: 50px;
+    margin-right: 400px;
+}
+
+
+nav .menuVertical{
+    font-size: 14px;
+}
+
+
+
+
+header a{
+    padding: 15px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+header a:hover{
+    color: rgb(6, 34, 95);
+}
+
+/* Imagen de fondo*/
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: #ffffff;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("Images/acusticGuitar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1{
+    color: white;
+}
+
+#hero button{
+    font-size: 1.75em;
+}
+
+#somos-oc .container{
+    text-align: center;
+    padding: 180px 12px;
+}
+
+
+
+@media (min-width: 720px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+    header nav{
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+    }
+
+
+    #hero h1{
+        font-size: 4em;
+    }
+
+    #somos-oc .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #somos-oc .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        padding: 0px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #somos-oc h2{
+        margin-top: 0px;
+    }
+
+    #somos-oc .img-container{
+        background-image: url("Images/claveSol.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+    }
+
+
+@media (min-width: 1200px){
+    #caracteristicas{
+        background-position-x: calc(100vw - 800px);
+    }
+}
+}
+
+nav{
+    max-width: 900px;
+    font-size: 14px;
+}
+
+.menuHorizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menuHorizontal > li > a  {
+    display: block;
+    padding: 15px 14px;
+    text-align: right;
+}
+
+.menuVertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+}
+
+.menuHorizontal li:hover .menuVertical{
+    display: block;
+}
+
+.menuVertical li:hover{
+    background-color: rgb(39, 9, 109);
+}
+
+
+.menuVertical li a{
+    display: block;
+    color: white;
+    text-align: justify;
+
+}
+
+
+
+
+footer{
+    background-color: rgb(230,230,230);
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100,100,100);
+}
+
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}

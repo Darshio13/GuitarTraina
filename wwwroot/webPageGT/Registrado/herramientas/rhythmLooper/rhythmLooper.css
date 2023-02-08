@@ -1,0 +1,80 @@
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    background-color: #F2DEBA;
+}
+
+
+.nav{
+    padding: 10px;
+    background-color: #2C3333;
+    align-items: center;
+    display: flex;
+}
+
+.pt1Menu{
+    display: flex;
+    width: 15%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titleBar{
+    display: flex;
+    width: 70%;
+    color: white;
+    justify-content: center;
+    font-family: cursive;
+}
+
+.pt2Menu{
+    width: 15%;
+    padding: 10px 30px;
+    text-align: left;
+    font-family: cursive;    
+}
+
+.pt2Menu .toolBar li{
+    list-style: none;
+}
+
+.imgLogo{
+    width: 50px;
+}
+
+.letrasLogo{
+    color: white;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 19px;
+    color: rgb(228, 226, 223);
+    cursor: default;
+}
+
+
+.toolBar li a:hover{
+    background-color: rgb(50, 3, 68);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+.containerRhythmLooper{
+color: white;
+}

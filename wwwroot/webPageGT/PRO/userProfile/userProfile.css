@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    background-color: #F2DEBA;
+}
+
+.nav{
+    padding: 10px;
+    background-color: #2C3333;
+    align-items: center;
+    display: flex;
+}
+
+.pt1Menu{
+    display: flex;
+    width: 15%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titleBar{
+    display: flex;
+    width: 70%;
+    color: white;
+    justify-content: center;
+    font-family: cursive;
+}
+
+.pt2Menu{
+    width: 15%;
+    padding: 10px 30px;
+    text-align: left;
+    font-family: cursive;    
+}
+
+.pt2Menu .toolBar li{
+    list-style: none;
+}
+
+.imgLogo{
+    width: 50px;
+}
+
+.letrasLogo{
+    color: white;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 19px;
+    color: rgb(228, 226, 223);
+    cursor: default;
+}
+
+
+.toolBar li a:hover{
+    background-color: rgb(50, 3, 68);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+/* Info container */
+
+
+.secondPart{
+    background-color: #01050E;
+}
+
+
+#somosGT .container{
+    text-align: center;
+    padding: 80px 12px;
+    color: white;
+    display: grid;
+    width: 100%;
+    gap: 1.5em;    
+    grid-template-columns: repeat(1, 1fr) ;
+    border: 3px solid red;
+}
+
+
+.infoUsuario{
+    display: grid;
+    text-align: justify;
+    color: rgb(228, 222, 212);
+    height: 400px;
+    padding: 18px;
+    margin-bottom: 100px;
+    font-size: 17px;
+    border: 3px solid red;
+    grid-template-columns: auto auto auto;
+}
+
+.box{
+    border: 2px solid green;
+}
+
+.box .foto img{
+    width: 100%;
+    max-width: 250px;
+}
+
+.cambioFoto{
+    text-align: center;
+}
+
+.cambioFoto a{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.box .partOne{
+    color: red;
+    padding: 10px;
+    margin: 10px;
+}

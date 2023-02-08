@@ -1,0 +1,49 @@
+@model ProyectoGuitarra.Models.RegistroModel
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="toolsAndOthers/titleBarLogo.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="~/webPageGt/Invitado/registerAndLogin/register.css">
+</head>
+
+<body>
+
+    <div class="myForm">
+        <h1> Registro </h1>
+        <form method="post">
+
+            @using (Html.BeginForm("Index", "Registro", FormMethod.Post, new { onsubmit = "return btnClick();" }))
+            {
+                <div class="username">
+                    @Html.TextBoxFor(m=> m.username, new { placeholder= "Nombre de usuario", id = "mailInput", required = "required",  autocomplete="off"})
+                </div>
+
+                <div class="email">
+                    @Html.TextBoxFor(m=>m.email, new {placeholder= "Correo Electrónico", required = "required",  autocomplete="off"} )
+                </div>
+                <div class="pass">
+                    @Html.TextBoxFor(m=>m.password, new {placeholder= "Contraseña", id = "passwordInput", type="password", required = "required"})
+                </div>
+
+                <input type="submit" value="Registrarme">
+            }
+
+
+
+
+
+            <div class="registrarse">
+                ¿Ya tienes cuenta? <a href="/login"> Iniciar sesión </a>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

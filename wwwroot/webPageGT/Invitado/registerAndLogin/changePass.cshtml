@@ -1,49 +1,41 @@
-@model ProyectoGuitarra.Models.RegistroModel
-
+@model ProyectoGuitarra.Models.ChangePasswordModel
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <link rel="icon" href="toolsAndOthers/titleBarLogo.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio de sesión</title>
-    <link rel="stylesheet" href="~/webPageGt/Invitado/registerAndLogin/register.css">
+    <title>Cambio de constraseña</title>
+    <link rel="stylesheet" href="~/webPageGt/Invitado/registerAndLogin/changePass.css">
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
-
+  
 <body>
 
     <div class="myForm">
-        <h1> Registro </h1>
+        <h1> Cambiar Contraseña </h1>
         <form method="post">
-
-            @using (Html.BeginForm("Index", "Registro", FormMethod.Post, new { onsubmit = "return btnClick(event);" }))
+              @using (Html.BeginForm("Index", "Registro", FormMethod.Post, new { onsubmit = "return btnClick(event);" }))
             {
-                <div class="username">
-                    @Html.TextBoxFor(m=> m.username, new { placeholder= "Nombre de usuario", id = "mailInput", required =
-                "required", autocomplete="off"})
-                </div>
-
-                <div class="email">
-                    @Html.TextBoxFor(m=>m.email, new {placeholder= "Correo Electrónico", required = "required",
-                autocomplete="off"} )
-                </div>
-                <div class="pass">
-                    @Html.TextBoxFor(m=>m.password, new {placeholder= "Contraseña", id = "passwordInput", type="password",
-                required = "required"})
-                </div>
-
-                <div class="pass">
-                    <input type="password" placeholder="Confirmar contraseña" id="confirmedpass" required>
-                </div>
-
-
-
-                <input type="submit" value="Registrarme">
+            <div class="newPass">
+                @Html.TextBoxFor(m=> m.password, new { placeholder= "Escribir nueva contraseña", id = "passwordInput", required =
+                "required", autocomplete="off", type="password"})
+            </div>
+            <div class="confirmPass">
+                <input type="password" placeholder="Confirmar contraseña" id="confirmedpass" required >
+            </div>
+            <div class="token">
+                @Html.TextBoxFor(m=> m.token, new { placeholder= "Ingrese el token de autenticación", id = "token", required =
+                "required", autocomplete="off"})                
+            </div>
+            
+            <div class="change">
+            <input type="submit" value="Cambiar contraseña">
+        </div>
             }
-
+        </form>
+    </div>
             <script>
 
 
@@ -73,15 +65,5 @@
             </script>
 
 
-
-
-
-            <div class="registrarse">
-                ¿Ya tienes cuenta? <a href="/login"> Iniciar sesión </a>
-            </div>
-        </form>
-    </div>
-
 </body>
-
 </html>

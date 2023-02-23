@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PvMwgwXdbVITDIh/sep8bAggrpdtbGWa9QGMU3g28W0=",
+  "Hash": "IhBWFeLFBYGA8lPvzVRWbKFzeCkUXS13+hEJKWEpBFQ=",
   "Source": "ProyectoGuitarra",
   "BasePath": "_content/ProyectoGuitarra",
   "Mode": "Default",
@@ -2941,6 +2941,23 @@
       "OriginalItemSpec": "wwwroot\\webPageGT\\Invitado\\README.md"
     },
     {
+      "Identity": "C:\\Users\\Diego Santos\\Desktop\\ProyectoGuitarra\\wwwroot\\webPageGT\\Invitado\\registerAndLogin\\changePass.cshtml",
+      "SourceId": "ProyectoGuitarra",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Diego Santos\\Desktop\\ProyectoGuitarra\\wwwroot\\",
+      "BasePath": "_content/ProyectoGuitarra",
+      "RelativePath": "webPageGT/Invitado/registerAndLogin/changePass.cshtml",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "wwwroot\\webPageGT\\Invitado\\registerAndLogin\\changePass.cshtml"
+    },
+    {
       "Identity": "C:\\Users\\Diego Santos\\Desktop\\ProyectoGuitarra\\wwwroot\\webPageGT\\Invitado\\registerAndLogin\\changePass.css",
       "SourceId": "ProyectoGuitarra",
       "SourceType": "Discovered",
@@ -2958,21 +2975,21 @@
       "OriginalItemSpec": "wwwroot\\webPageGT\\Invitado\\registerAndLogin\\changePass.css"
     },
     {
-      "Identity": "C:\\Users\\Diego Santos\\Desktop\\ProyectoGuitarra\\wwwroot\\webPageGT\\Invitado\\registerAndLogin\\changePass.html",
+      "Identity": "C:\\Users\\Diego Santos\\Desktop\\ProyectoGuitarra\\wwwroot\\webPageGT\\Invitado\\registerAndLogin\\forgotPass.cshtml",
       "SourceId": "ProyectoGuitarra",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Diego Santos\\Desktop\\ProyectoGuitarra\\wwwroot\\",
       "BasePath": "_content/ProyectoGuitarra",
-      "RelativePath": "webPageGT/Invitado/registerAndLogin/changePass.html",
-      "AssetKind": "All",
+      "RelativePath": "webPageGT/Invitado/registerAndLogin/forgotPass.cshtml",
+      "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\webPageGT\\Invitado\\registerAndLogin\\changePass.html"
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "wwwroot\\webPageGT\\Invitado\\registerAndLogin\\forgotPass.cshtml"
     },
     {
       "Identity": "C:\\Users\\Diego Santos\\Desktop\\ProyectoGuitarra\\wwwroot\\webPageGT\\Invitado\\registerAndLogin\\forgotPass.css",
@@ -2990,23 +3007,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\webPageGT\\Invitado\\registerAndLogin\\forgotPass.css"
-    },
-    {
-      "Identity": "C:\\Users\\Diego Santos\\Desktop\\ProyectoGuitarra\\wwwroot\\webPageGT\\Invitado\\registerAndLogin\\forgotPass.html",
-      "SourceId": "ProyectoGuitarra",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Diego Santos\\Desktop\\ProyectoGuitarra\\wwwroot\\",
-      "BasePath": "_content/ProyectoGuitarra",
-      "RelativePath": "webPageGT/Invitado/registerAndLogin/forgotPass.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\webPageGT\\Invitado\\registerAndLogin\\forgotPass.html"
     },
     {
       "Identity": "C:\\Users\\Diego Santos\\Desktop\\ProyectoGuitarra\\wwwroot\\webPageGT\\Invitado\\registerAndLogin\\login.cshtml",
@@ -5559,6 +5559,23 @@
       "OriginalItemSpec": "wwwroot\\webPageGT\\Registrado\\herramientas\\metronomo\\toolsAndOthers\\userIcon.png"
     },
     {
+      "Identity": "C:\\Users\\Diego Santos\\Desktop\\ProyectoGuitarra\\wwwroot\\webPageGT\\Registrado\\herramientas\\reporteErrores\\reporteErrores.cshtml",
+      "SourceId": "ProyectoGuitarra",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Diego Santos\\Desktop\\ProyectoGuitarra\\wwwroot\\",
+      "BasePath": "_content/ProyectoGuitarra",
+      "RelativePath": "webPageGT/Registrado/herramientas/reporteErrores/reporteErrores.cshtml",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "wwwroot\\webPageGT\\Registrado\\herramientas\\reporteErrores\\reporteErrores.cshtml"
+    },
+    {
       "Identity": "C:\\Users\\Diego Santos\\Desktop\\ProyectoGuitarra\\wwwroot\\webPageGT\\Registrado\\herramientas\\reporteErrores\\reporteErrores.css",
       "SourceId": "ProyectoGuitarra",
       "SourceType": "Discovered",
@@ -5574,23 +5591,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\webPageGT\\Registrado\\herramientas\\reporteErrores\\reporteErrores.css"
-    },
-    {
-      "Identity": "C:\\Users\\Diego Santos\\Desktop\\ProyectoGuitarra\\wwwroot\\webPageGT\\Registrado\\herramientas\\reporteErrores\\reporteErrores.html",
-      "SourceId": "ProyectoGuitarra",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Diego Santos\\Desktop\\ProyectoGuitarra\\wwwroot\\",
-      "BasePath": "_content/ProyectoGuitarra",
-      "RelativePath": "webPageGT/Registrado/herramientas/reporteErrores/reporteErrores.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\webPageGT\\Registrado\\herramientas\\reporteErrores\\reporteErrores.html"
     },
     {
       "Identity": "C:\\Users\\Diego Santos\\Desktop\\ProyectoGuitarra\\wwwroot\\webPageGT\\Registrado\\herramientas\\reporteErrores\\reporteImages\\logoFInal.png",

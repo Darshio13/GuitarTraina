@@ -59,12 +59,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFx3ZWJQYWdlR1RcSW52aXRhZG9caW5kZXhJbnZpdGFkby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Diego Santos/Desktop/ProyectoGuitarra/wwwroot/webPageGT/Invitado/registerAndLogin/changePass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFx3ZWJQYWdlR1RcSW52aXRhZG9ccmVnaXN0ZXJBbmRMb2dpblxjaGFuZ2VQYXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Diego Santos/Desktop/ProyectoGuitarra/wwwroot/webPageGT/Invitado/registerAndLogin/forgotPass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFx3ZWJQYWdlR1RcSW52aXRhZG9ccmVnaXN0ZXJBbmRMb2dpblxmb3Jnb3RQYXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Diego Santos/Desktop/ProyectoGuitarra/wwwroot/webPageGT/Invitado/registerAndLogin/login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFx3ZWJQYWdlR1RcSW52aXRhZG9ccmVnaXN0ZXJBbmRMb2dpblxsb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Diego Santos/Desktop/ProyectoGuitarra/wwwroot/webPageGT/Invitado/registerAndLogin/register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFx3ZWJQYWdlR1RcSW52aXRhZG9ccmVnaXN0ZXJBbmRMb2dpblxyZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Diego Santos/Desktop/ProyectoGuitarra/wwwroot/webPageGT/Registrado/herramientas/reporteErrores/reporteErrores.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFx3ZWJQYWdlR1RcUmVnaXN0cmFkb1xoZXJyYW1pZW50YXNccmVwb3J0ZUVycm9yZXNccmVwb3J0ZUVycm9yZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Diego Santos/Desktop/ProyectoGuitarra/wwwroot/webPageGT/Registrado/indexRegistrado.cshtml]
